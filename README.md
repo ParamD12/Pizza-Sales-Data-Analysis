@@ -6,7 +6,7 @@ This SQL project conducts a thorough analysis of pizza sales data, aiming to unc
 
 ## Tables Involved
 
-- `orders`: Contains order information including order IDs and timestamps.
-- `order_details`: Contains details of each order, including pizza IDs and quantities.
-- `pizza_types`: Contains information about different pizza types.
-- `pizzas`: Contains details about pizzas, including sizes and prices.
+- `orders`: Contains order information including order_id, order_date, order_time.
+- `order_details`: Contains details of each order, including order_detail_id, order_id, pizza_id, quantity.
+- `pizza_types`: Contains information about different pizza types, including pizza_type_id, name, category, ingredients.
+- `pizzas`: Contains details about pizzas, including pizza_type_id, pizza_id, size, and price.
